@@ -1,1 +1,0 @@
-alter table characterexplogs modify column world_exp_rate float comment '大区倍率';

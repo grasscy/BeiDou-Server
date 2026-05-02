@@ -1,9 +1,0 @@
-CREATE TABLE IF NOT EXISTS `marriages`
-(
-    `marriageid` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-    `husbandid`  INT(10) UNSIGNED NOT NULL DEFAULT '0',
-    `wifeid`     INT(10) UNSIGNED NOT NULL DEFAULT '0',
-    PRIMARY KEY (`marriageid`)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  AUTO_INCREMENT = 1;
